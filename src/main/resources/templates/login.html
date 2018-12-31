@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<h1 th:text = "${msg}" style="color: red"></h1>
+<form action="/toTogin" method="post">
+    <input type="text" name="userName" /><br />
+    <input type="password" name="pwd" /><br />
+    <input type="submit" value="登录" />
+</form>
+</body>
+</html>
